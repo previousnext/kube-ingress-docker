@@ -1,7 +1,7 @@
 FROM nginx
 
 ADD kube-ingress-0.0.1 /usr/local/bin/kube-ingress
-RUN chmod a+x /usr/local/bin/kube-ingess
+RUN chmod a+x /usr/local/bin/kube-ingress
 
 RUN apt-get update
 RUN apt-get install -y python-setuptools ca-certificates

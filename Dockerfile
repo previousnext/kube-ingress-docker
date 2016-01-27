@@ -1,6 +1,6 @@
 FROM nginx
 
-ADD kube-ingress-0.0.1 /usr/local/bin/kube-ingress
+ADD kube-ingress-0.0.2 /usr/local/bin/kube-ingress
 RUN chmod a+x /usr/local/bin/kube-ingress
 
 RUN apt-get update
